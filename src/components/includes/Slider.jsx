@@ -16,8 +16,6 @@ function Slider() {
     .then((error) => console.log('error', error));
   }, []);
 
-  // console.log(slides.btn);
-
   return (
     <section id="sliderType slider__wrap nexon">
       <h2 className="ir_so">슬라이드 영역</h2>

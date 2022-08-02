@@ -26,8 +26,6 @@ function Text() {
     .then((error) => console.log('error', error));
   }, []);
 
-  // console.log(titles);
-
   const [texts, setTexts] = useState([]);
 
   useEffect(() => { 
