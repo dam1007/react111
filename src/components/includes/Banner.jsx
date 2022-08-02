@@ -1,15 +1,5 @@
 import React, {useEffect, useState} from 'react'
 
-
-const bannerInfo = [
-  {
-    title: '유튜버 웹보이',
-    desc: '더 다양한 강의는 유튜브를 통해 제공하고 있습니다.',
-    href: 'youtube.com/c/Webstoryboy',
-    small: '배너 영역01'
-  }
-]
-
 function Banner() {
 
   const [banners, setBanners] = useState([]);
